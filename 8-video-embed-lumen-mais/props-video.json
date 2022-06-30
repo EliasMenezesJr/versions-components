@@ -1,0 +1,22 @@
+{
+  "name": "video_popup_center_lumen_mais",
+  "icon": "icons/components/video.svg",
+  "label": " Video Externo POPUP CENTER Lumen Mais",
+  "selectionMethod": "handle",
+  "properties": [
+    {
+      "name": "fitting",
+      "defaultValue": "_fit-frame-to-content"
+    },
+    "position",
+    "style_lumen_mais",
+    {
+      "name": "embed-code",
+      "directiveKey": "html"
+    },
+    "inside-caption",
+    "text-align",
+    "letter-spacing",
+    "line-height"
+  ]
+},

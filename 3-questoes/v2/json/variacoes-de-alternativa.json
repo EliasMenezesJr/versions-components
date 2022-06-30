@@ -1,0 +1,42 @@
+{
+  "name": "styles-type-list",
+  "label": "Escolha o tipo de lista",
+  "control": {
+    "type": "select",
+    "options": [
+      {
+        "caption": {
+          "key": "PROPERTY_STYLE_DEFAULT_OPTION"
+        }
+      },
+      {
+        "caption": {
+          "key": "PROPERTY_VARIANT_STYLE_OPTION",
+          "values": {
+            "0": "Itens"
+          }
+        },
+        "value": "itens"
+      },
+      {
+        "caption": {
+          "key": "PROPERTY_VARIANT_STYLE_OPTION",
+          "values": {
+            "0": "Itens Romano"
+          }
+        },
+        "value": "item_romano_itens"
+      },
+      {
+        "caption": {
+          "key": "PROPERTY_VARIANT_STYLE_OPTION",
+          "values": {
+            "0": "Alternativa Assinalar"
+          }
+        },
+        "value": "alternativa_assinalar_itens"
+      }
+    ]
+  },
+  "dataType": "styles"
+},

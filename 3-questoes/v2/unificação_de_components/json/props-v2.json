@@ -1,0 +1,57 @@
+{
+  "name": "css_03_v2exercicio_alternativa",
+  "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+  "label": "Exercício Alternativa",
+  "allowNesting": "yes",
+  "properties": [
+    "styles-type-list",
+    "style",
+    "text-align",
+    "letter-spacing",
+    "line-height"
+  ],
+  "restrictChildren": {
+    "css_03_v2exercicio_alternativa_item": {}
+  },
+  "directiveOptions": {
+    "main": {
+      "groups": [
+        {
+          "label": "Alternativa",
+          "name": "Alternativa",
+          "components": [
+            "css_03_v2exercicio_alternativa_item"
+          ]
+        }
+      ]
+    }
+  }
+},
+{
+  "name": "css_03_v2exercicio_alternativa_item",
+  "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+  "label": "Alternativa",
+  "allowNesting": "yes",
+  "properties": [
+    "style",
+    "text-align",
+    "letter-spacing",
+    "line-height"
+  ]
+},
+{
+  "name": "css_03_v2exercicio_alternativa_item_texto",
+  "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+  "label": "Texto Alternativa Editável",
+  "properties": [
+    "style",
+    "text-align",
+    "letter-spacing",
+    "line-height"
+  ],
+  "directiveOptions": {
+    "text_alternativa": {
+      "stripStylingOnPaste": true
+    }
+  }
+},

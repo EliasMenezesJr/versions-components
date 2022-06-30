@@ -1,0 +1,7 @@
+{
+  "name": "container_id_questao",
+  "icon": "icons/components/container.svg",
+  "selectionMethod": "handle",
+  "label": "Container ID Questão",
+  "properties": []
+},

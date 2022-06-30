@@ -1,0 +1,204 @@
+{
+  "name": "style_abre_secoes",
+  "label": {
+    "key": "PROPERTY_VARIANT_LABEL"
+  },
+  "control": {
+    "type": "select",
+    "options": [
+      {
+        "caption": {
+          "key": "PROPERTY_VARIANT_STYLE_OPTION",
+          "values": {
+            "0": "Atividades"
+          }
+        },
+        "value": "atividades"
+      },
+      {
+        "caption": {
+          "key": "PROPERTY_VARIANT_STYLE_OPTION",
+          "values": {
+            "0": "Desafio"
+          }
+        },
+        "value": "desafio"
+      },
+      {
+        "caption": {
+          "key": "PROPERTY_VARIANT_STYLE_OPTION",
+          "values": {
+            "0": "Reflexão"
+          }
+        },
+        "value": "reflexão"
+      },
+      {
+        "caption": {
+          "key": "PROPERTY_VARIANT_STYLE_OPTION",
+          "values": {
+            "0": "Síntese"
+          }
+        },
+        "value": "sintese"
+      },
+      {
+        "caption": {
+          "key": "PROPERTY_VARIANT_STYLE_OPTION",
+          "values": {
+            "0": "Pontos e Letras"
+          }
+        },
+        "value": "pontos_e_letras"
+      },
+      {
+        "caption": {
+          "key": "PROPERTY_VARIANT_STYLE_OPTION",
+          "values": {
+            "0": "Leitura complementar"
+          }
+        },
+        "value": "leitura_complementar"
+      },
+      {
+        "caption": {
+          "key": "PROPERTY_VARIANT_STYLE_OPTION",
+          "values": {
+            "0": "Arte e você"
+          }
+        },
+        "value": "arte_e_voce"
+      },
+      {
+        "caption": {
+          "key": "PROPERTY_VARIANT_STYLE_OPTION",
+          "values": {
+            "0": "Diário do artista"
+          }
+        },
+        "value": "diario_do_artista"
+      }
+    ]
+  },
+  "dataType": "styles"
+},
+{
+  "name": "style_abre_secoes_ingles",
+  "label": {
+    "key": "PROPERTY_VARIANT_LABEL"
+  },
+  "control": {
+    "type": "select",
+    "options": [
+      {
+        "caption": {
+          "key": "PROPERTY_VARIANT_STYLE_OPTION",
+          "values": {
+            "0": "I can integrate"
+          }
+        },
+        "value": "i_can_integrate"
+      },
+      {
+        "caption": {
+          "key": "PROPERTY_VARIANT_STYLE_OPTION",
+          "values": {
+            "0": "I can listen"
+          }
+        },
+        "value": "i_can_listen"
+      },
+      {
+        "caption": {
+          "key": "PROPERTY_VARIANT_STYLE_OPTION",
+          "values": {
+            "0": "I can understand"
+          }
+        },
+        "value": "i_can_understand"
+      },
+      {
+        "caption": {
+          "key": "PROPERTY_VARIANT_STYLE_OPTION",
+          "values": {
+            "0": "I can classify"
+          }
+        },
+        "value": "i_can_classify"
+      },
+      {
+        "caption": {
+          "key": "PROPERTY_VARIANT_STYLE_OPTION",
+          "values": {
+            "0": "I can rewrite"
+          }
+        },
+        "value": "i_can_rewrite"
+      },
+      {
+        "caption": {
+          "key": "PROPERTY_VARIANT_STYLE_OPTION",
+          "values": {
+            "0": "I can write"
+          }
+        },
+        "value": "i_can_write"
+      },
+      {
+        "caption": {
+          "key": "PROPERTY_VARIANT_STYLE_OPTION",
+          "values": {
+            "0": "I can use"
+          }
+        },
+        "value": "i_can_use"
+      },
+      {
+        "caption": {
+          "key": "PROPERTY_VARIANT_STYLE_OPTION",
+          "values": {
+            "0": "I can do more"
+          }
+        },
+        "value": "i_can_do_more"
+      },
+      {
+        "caption": {
+          "key": "PROPERTY_VARIANT_STYLE_OPTION",
+          "values": {
+            "0": "I can say"
+          }
+        },
+        "value": "i_can_say"
+      },
+      {
+        "caption": {
+          "key": "PROPERTY_VARIANT_STYLE_OPTION",
+          "values": {
+            "0": "CLIL Climb"
+          }
+        },
+        "value": "CLIL_Climb"
+      },
+      {
+        "caption": {
+          "key": "PROPERTY_VARIANT_STYLE_OPTION",
+          "values": {
+            "0": "Break it down"
+          }
+        },
+        "value": "break_it_down"
+      },
+      {
+        "caption": {
+          "key": "PROPERTY_VARIANT_STYLE_OPTION",
+          "values": {
+            "0": "Reading the lines"
+          }
+        },
+        "value": "reading_the_lines"
+      }
+    ]
+  },
+  "dataType": "styles"
+},

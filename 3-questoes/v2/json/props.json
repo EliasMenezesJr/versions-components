@@ -1,0 +1,173 @@
+{
+  "name": "css_03_2exercicio_container",
+  "icon": "icons/components/container.svg",
+  "label": "Exercício Container",
+  "selectionMethod": "handle",
+  "allowNesting": "yes",
+  "properties": [
+    "style",
+    "text-align",
+    "letter-spacing",
+    "line-height"
+  ]
+},
+{
+  "name": "css_03_2exercicio_container_edit",
+  "icon": "icons/components/container.svg",
+  "label": "Editável Exercício Container",
+  "selectionMethod": "handle",
+  "allowNesting": "yes",
+  "properties": [
+    "style",
+    "text-align",
+    "letter-spacing",
+    "line-height"
+  ],
+  "directiveOptions": {
+    "number_exercicio": {
+      "stripStylingOnPaste": true
+    }
+  }
+},
+{
+  "name": "css_03_2exercicio_alternativa",
+  "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+  "label": "Exercício Alternativa",
+  "allowNesting": "yes",
+  "properties": [
+    "styles-type-list",
+    "style",
+    "text-align",
+    "letter-spacing",
+    "line-height"
+  ],
+  "restrictChildren": {
+    "css_03_2exercicio_alternativa_item": {}
+  },
+  "directiveOptions": {
+    "main": {
+      "groups": [
+        {
+          "label": "Alternativa",
+          "name": "Alternativa",
+          "components": [
+            "css_03_2exercicio_alternativa_item"
+          ]
+        }
+      ]
+    }
+  }
+},
+{
+  "name": "css_03_2exercicio_alternativa_item",
+  "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+  "label": "Alternativa",
+  "allowNesting": "yes",
+  "properties": [
+    "style",
+    "text-align",
+    "letter-spacing",
+    "line-height"
+  ]
+},
+{
+  "name": "css_03_2exercicio_alternativa_edit",
+  "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+  "label": "Editável Exercício Alternativa",
+  "allowNesting": "yes",
+  "properties": [
+    "style",
+    "text-align",
+    "letter-spacing",
+    "line-height"
+  ],
+  "restrictChildren": {
+    "css_03_2exercicio_alternativa_item_edit": {}
+  },
+  "directiveOptions": {
+    "main": {
+      "groups": [
+        {
+          "label": "Alternativa Editável",
+          "name": "Alternativa Editável",
+          "components": [
+            "css_03_2exercicio_alternativa_item_edit"
+          ]
+        }
+      ]
+    }
+  }
+},
+{
+  "name": "css_03_2exercicio_alternativa_item_edit",
+  "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+  "label": "Alternativa Editável",
+  "allowNesting": "yes",
+  "properties": [
+    "style",
+    "text-align",
+    "letter-spacing",
+    "line-height"
+  ],
+  "directiveOptions": {
+    "alternativa_text": {
+      "stripStylingOnPaste": true
+    }
+  }
+},
+{
+  "name": "css_03_2exercicio_alternativa_item_texto",
+  "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+  "label": "Texto Alternativa Editável",
+  "properties": [
+    "style",
+    "text-align",
+    "letter-spacing",
+    "line-height"
+  ],
+  "directiveOptions": {
+    "text_alternativa": {
+      "stripStylingOnPaste": true
+    }
+  }
+},
+{
+  "name": "css_03_2exercicio_alternativa_assinalar",
+  "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+  "label": "Exercício Alternativa Assinalar",
+  "allowNesting": "yes",
+  "properties": [
+    "style",
+    "text-align",
+    "letter-spacing",
+    "line-height"
+  ],
+  "restrictChildren": {
+    "css_03_2exercicio_alternativa_assinalar_itens": {}
+  },
+  "directiveOptions": {
+    "main": {
+      "groups": [
+        {
+          "label": "Alternativa Assinalar",
+          "name": "Alternativa Assinalar",
+          "components": [
+            "css_03_2exercicio_alternativa_assinalar_itens"
+          ]
+        }
+      ]
+    }
+  }
+},
+{
+  "name": "css_03_2exercicio_alternativa_assinalar_itens",
+  "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+  "label": "Alternativa Assinalar",
+  "allowNesting": "yes",
+  "properties": [
+    "style",
+    "text-align",
+    "letter-spacing",
+    "line-height"
+  ]
+},

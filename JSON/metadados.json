@@ -1,0 +1,17 @@
+,
+    {
+      "name": "99_bancoquestao",
+      "icon": "icons/components/icon_03_exercicio_enunciado.svg",
+      "label": "Metadado Questão",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "directiveOptions": {
+        "text": {
+          "stripStylingOnPaste": true
+        }
+      }
+    },

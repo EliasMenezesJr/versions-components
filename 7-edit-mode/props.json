@@ -1,0 +1,19 @@
+"edit-mode"
+
+{
+  "name": "edit-mode",
+  "label": "Ative para ver o modo de edição com barras",
+  "control": {
+    "type": "select",
+    "options": [
+      {
+        "caption": "Desativado"
+      },
+      {
+        "caption": "Ativado",
+        "value": "edit-mode"
+      }
+    ]
+  },
+  "dataType": "styles"
+},

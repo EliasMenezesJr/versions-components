@@ -1,0 +1,39 @@
+
+    {
+      "name": "css_02_2texto_bullet",
+      "icon": "icons/components/icon_02_texto_bullet.svg",
+      "label": "Container Texto Bullet",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ],
+      "restrictChildren": {
+        "css_02_2texto_bullet_itens": {}
+      },
+      "directiveOptions": {
+        "main": {
+          "groups": [
+            {
+              "label": "Ponto Container Texto Bullet",
+              "name": "Ponto Container Texto Bullet",
+              "components": [
+                "css_02_2texto_bullet_itens"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "css_02_2texto_bullet_itens",
+      "icon": "icons/components/icon_02_texto_bullet.svg",
+      "label": "Ponto Container Texto Bullet",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },

@@ -1,0 +1,25 @@
+
+    {
+      "name": "secao",
+      "icon": "icons/components/icon_07_secao_titulo1.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "label": {
+        "key": "Abre de seções"
+      },
+      "properties": [
+        "style_abre_secoes"
+      ]
+    },
+    {
+      "name": "secao_ingles",
+      "icon": "icons/components/icon_07_secao_titulo1.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "label": {
+        "key": "Abre de seções Inglês"
+      },
+      "properties": [
+        "style_abre_secoes_ingles"
+      ]
+    },
